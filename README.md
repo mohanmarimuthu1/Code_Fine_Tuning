@@ -17,10 +17,6 @@ This project focuses on fine-tuning the open-weight **LLaMA-2 7B** model using *
 code-llm-finetune/
 ├── data/ # Training + validation datasets
 ├── src/ # Training, evaluation, and generation scripts
-├── app/ # Demo app (FastAPI / Gradio)
-├── notebooks/ # Data exploration / visualization
 ├── configs/ # Hyperparameter configs
 ├── requirements.txt
 ├── README.md
-├── model_card.md
-└── LICENSE
