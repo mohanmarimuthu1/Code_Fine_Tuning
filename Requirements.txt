@@ -1,0 +1,14 @@
+transformers==4.41.2
+datasets==2.19.0
+peft==0.10.0
+accelerate==0.30.1
+bitsandbytes==0.43.1
+scipy==1.12.0
+torch>=2.1.2
+
+
+These versions are stable + Colab-compatible as of mid-2025.
+
+If you're using Mistral or LLaMA-2, both are tested with transformers>=4.35.0.
+
+bitsandbytes enables 4-bit quantization, essential for low-RAM setups.
